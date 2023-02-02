@@ -9,6 +9,10 @@ public class bankdetails {
 		
 }
 	
+	private void login() {
+		System.out.println("investor login details");
+
+	}
 	
 	private void accountnumbar() {
 		System.out.println("enter the acccountnumber");
@@ -39,6 +43,7 @@ public class bankdetails {
 		bak.addr();
 		bak.pin();
 		bak.accountnumbar();
+		bak.login();
 		
 		AccounData abc=new AccounData();
 		
