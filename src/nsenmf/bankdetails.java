@@ -20,6 +20,11 @@ public class bankdetails {
 
 	}
 	
+	private void bankaccoun() {
+		System.out.println("enter the bankaccount");
+
+	}
+	
 	private void pin() {
 		System.out.println("user pincode is 602024");
 
@@ -33,6 +38,7 @@ public class bankdetails {
 		bak.accountnumbar();
 		bak.addr();
 		bak.pin();
+		bak.accountnumbar();
 		
 		AccounData abc=new AccounData();
 		
