@@ -6,6 +6,11 @@ public class Company {
 
 	}
 	
+	private void login() {
+		System.out.println("company login detail");
+
+	}
+	
 	private void companyaddr() {
 		System.out.println("enter the company addr");
 
@@ -26,5 +31,6 @@ public class Company {
 		c.compname();
 		c.companyaddr();
 		c.pin();
+		c.login();
 	}
 }
