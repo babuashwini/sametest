@@ -16,6 +16,11 @@ public class Company {
 
 	}
 	
+	private void registere() {
+	System.out.println("registere is done by Aswini");
+
+	}
+	
 	public static void main(String[] args) {
 		Company c=new Company();
 		c.compname();
